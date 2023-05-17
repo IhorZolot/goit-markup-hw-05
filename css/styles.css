@@ -513,14 +513,13 @@ body {
   column-gap: 24px;
   row-gap: 48px;
 }
-.work-fon:hover, 
-.work-fon:focus {
+.work-fon:focus .our-work-best {
   transform: translatey(0);
 }
-.our-work-best:hover,
-.our-work-best:focus {
+.work-fon:hover .our-work-best {
   transform: translatey(0);
 }
+
 
 .work-img-fon {
   position: relative;
