@@ -514,7 +514,11 @@ body {
   row-gap: 48px;
 }
 .work-fon:hover, 
-.work-fon:focus .our-work-best {
+.work-fon:focus {
+  transform: translatey(0);
+}
+.our-work-best:hover,
+.our-work-best:focus {
   transform: translatey(0);
 }
 
